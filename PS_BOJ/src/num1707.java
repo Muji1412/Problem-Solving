@@ -61,7 +61,7 @@ public class num1707 {
 
         for (int next : graph.get(node)) {
             if (colors[next] == 0) {
-                dfs(next, 3 - color);
+                dfs(next, 2);
             } else if (colors[next] == color) {
                 // 인접 노드가 같은 색이면 이분 그래프가 아님
                 isBipartite = false;
