@@ -73,5 +73,4 @@ public class num1018_needreview {
         return minRepaint;
 
     }
-
 }
