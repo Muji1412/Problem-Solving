@@ -7,5 +7,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="langchain4j-1.0.0-beta1" level="project" />
+    <orderEntry type="library" name="langchain4j-vertex-ai-1.0.0-beta1" level="project" />
+    <orderEntry type="library" name="squareup.okhttp3.okhttp" level="project" />
+    <orderEntry type="library" name="ai.tock.retrofit.jackson.client" level="project" />
+    <orderEntry type="library" name="apache.opennlp.tools" level="project" />
+    <orderEntry type="library" name="jsoup" level="project" />
+    <orderEntry type="library" name="slf4j.api" level="project" />
   </component>
 </module>
