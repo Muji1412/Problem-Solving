@@ -1,8 +1,7 @@
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class num10815 {
     public static void main(String[] args) throws IOException {
@@ -17,6 +16,8 @@ public class num10815 {
             map.put(scanner.nextInt(),1);
         }
 
+
+
         // 대조카드 어레이
         int m = scanner.nextInt();
         int[] arr = new int[m];
@@ -27,18 +28,6 @@ public class num10815 {
                 map.put(a,0);
             }
         }
-
-
-
-        StringBuilder sb = new StringBuilder();
-
-        for (int value : arr) {
-            sb.append(map.get(value)).append(" ");
-        }
-
-
-        System.out.println(sb);
-
 
     }
 }
